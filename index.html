@@ -1,0 +1,33 @@
+<!DOCKTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Bookmarker</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body onload="fetchBookmarks()">
+        <div class="container">
+            <div class="my-container">
+                <form class="myForm" id="myForm">
+                    <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="text" class="form-control" id="name"  placeholder="Name of the website">
+                    </div>
+                    <div class="form-group">
+                    <label for="exampleInputPassword1">URL</label>
+                    <input type="text" class="form-control" id="url" placeholder="URL of the website">
+                    </div>
+                    <button type="submit" class="btn btn-primary">ADD</button>
+                </form>
+            </div>
+            <div id="bookmarksResults"></div>
+        </div>
+        <!-- Liberaries -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

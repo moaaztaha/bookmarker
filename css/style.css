@@ -1,0 +1,28 @@
+.my-container{
+    width:50%;
+    margin:auto;
+    background-color: #bebebe;
+    margin-top:50px;
+    border-radius:25px;
+}
+.myForm{
+    text-align: center;
+    padding:50px;
+
+}
+
+#bookmarksResults{
+    width:50%;
+    margin:auto;
+    margin-top:50px !important;
+    border-radius:25px;
+    padding:10px;
+}
+
+#bookmarksResults div{
+    margin: 10px;
+}
+
+#bookmarksResults div a{
+    margin:10px;
+}
